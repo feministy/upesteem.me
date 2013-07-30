@@ -1,0 +1,51 @@
+@import "variables";
+
+body {
+  background: $background-color;
+}
+
+img {
+  border: 5px solid $link-color;
+  margin-top: $padding;
+  margin-bottom: $padding;
+}
+
+#header {
+  padding-left: $padding;
+  padding-top: $padding;
+  padding-bottom: $padding;
+  background: $text-color;
+  color: $background-color;
+}
+
+#main {
+  padding-left: $padding * 3;
+  padding-top: $padding * 3;
+}
+
+#footer {
+  padding-right: $padding;
+  text-align: right;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $text-color;
+}
+
+h3.separator {
+  padding-bottom: $padding * 3;
+}
+
+#wholeForm {
+padding-bottom: $padding * 5;
+padding-top: $padding;
+}
+
+.hide {
+  display: hidden;
+}

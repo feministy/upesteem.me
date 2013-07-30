@@ -1,0 +1,72 @@
+@import "variables";
+
+body {
+  font-family: $font;
+  font-size: 1.1em;
+  color: $text-color;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.large {
+  font-size: 2.5em;
+  margin-top: $padding * 3;
+}
+
+.weight100 {
+  font-weight: 100;
+}
+
+.weight300 {
+  font-weight: 300;
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+input {
+  border-radius: 50px;
+  border: 0;
+  padding: 10px;
+  font-size: 1.5em;
+  font-family: $font;
+  width: 400px;
+  background: $text-color;
+  font-weight: 300;
+  margin-top: $padding;
+  margin-left: $padding;
+}
+
+input[type=submit] {
+  font-weight: 700;
+  color: $background-color;
+}
+
+select {
+  padding: 5px;
+  border: 5px solid $link-color;
+  font-size: 1.7em;
+  font-family: $font;
+}
+
+#removeForm {
+  padding-left: $padding;
+}
+
+a.go {
+  background: $text-color;
+  color: $background-color;
+  padding: $padding;
+  border-radius: 50px;
+}
+
+.go:hover {
+  background: $link-color;
+}
