@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  ajaxListener.init("a#go");
-  formRendering.init("#step1", "#main");
-  submitForm.init("#step2", "#main");
-
   var ajaxListener = {
     init: function(linkId) {
       $(linkId).click(function(event) {
@@ -54,4 +50,8 @@ $(document).ready(function() {
       })
     }
   }
+
+  ajaxListener.init("a#go");
+  formRendering.init("#step1", "#main");
+  submitForm.init("#step2", "#main");
 });
