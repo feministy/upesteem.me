@@ -1,4 +1,4 @@
-# upesteem.me | up your self esteem
+# [upesteem.me](http://upesteem.me) | up your self esteem
 
 The happiest little website you ever did see.
 
