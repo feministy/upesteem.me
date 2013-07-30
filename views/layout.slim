@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title up esteem me | a self esteem generator
+    link rel="stylesheet" href="/css/main.css"
+    link rel="stylesheet" href="/css/typography.css"
+    link rel="stylesheet" href="/css/sticky-footer.css"
+    link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'
+    script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+    script src="app.js"
+
+  body
+    #wrap
+      #header
+        h2 upesteem.me <span class="weight100">| up your self esteem</a>
+      #main
+        == yield
+
+    #footer
+      == slim :_footer
