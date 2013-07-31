@@ -7,6 +7,7 @@ gem 'sinatra-contrib'
 gem 'thin'
 gem 'slim'
 gem 'sass'
+gem 'dinosaurus'
 
 group :development do
   gem 'shotgun'
