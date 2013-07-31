@@ -25,14 +25,9 @@ end
 get '/smile.?:format?' do
   @key = params.keys.join
   @value = params[@key]
-
-  if @key == "feel"
-    @are = "really, truly, most definitely are not"
-  elsif @key == "think you are bad at"
-    @are = "are really quite shockingly good at"
-  elsif @key == "think you are not"
-    @are = "are very very very"
-  end
+  smile = DinosaurusMagic.new(@key, params)
+  @are = smile.are
+  @happy = smile.happy
 
   @gifs = ["/images/virtual_hug.gif", "/images/lotr.gif", "/images/friends.gif", "/images/sloth.gif", "/images/pooh.gif", "/images/minions.gif"]
 
