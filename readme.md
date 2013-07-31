@@ -1,4 +1,4 @@
-# [upesteem.me](http://upesteem.me) | up your self esteem
+# [upesteem](http://upesteem.herokuapp.com/) | up your self esteem
 
 The happiest little website you ever did see.
 
